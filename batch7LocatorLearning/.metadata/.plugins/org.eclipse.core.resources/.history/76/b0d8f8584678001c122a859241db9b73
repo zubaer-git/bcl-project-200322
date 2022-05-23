@@ -1,0 +1,24 @@
+package testCase;
+
+import java.time.Duration;
+
+import org.testng.annotations.Test;
+
+import driver.DriverSetup;
+
+public class Tc_01 extends DriverSetup {
+	String baseUrl="https://rahulshettyacademy.com/locatorspractice/#";
+	
+
+	@Test
+	public void lola() throws InterruptedException 
+	{
+		zbr.get(baseUrl);
+		zbr.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		zbr.manage().window().maximize();
+		Thread.sleep(2000);
+		
+		
+	}
+
+}

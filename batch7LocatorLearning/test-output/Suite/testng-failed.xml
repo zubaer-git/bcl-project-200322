@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCase.TC001_LocatorLearning">
+        <methods>
+          <include name="locatorLearning"/>
+          <include name="setDriver"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testCase.TC001_LocatorLearning -->
+      <class name="testCase.TC002_VerifyPageTitle">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="setDriver"/>
+          <include name="isWebsiteSecured"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testCase.TC002_VerifyPageTitle -->
+      <class name="testCase.TC006_Scroll">
+        <methods>
+          <include name="setDriver"/>
+          <include name="scrollCheck"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testCase.TC006_Scroll -->
+      <class name="testCase.TC007_RightContextClick">
+        <methods>
+          <include name="setDriver"/>
+          <include name="close"/>
+          <include name="doubleClickRightClick"/>
+        </methods>
+      </class> <!-- testCase.TC007_RightContextClick -->
+      <class name="testCase.TC0010_AlertAndPopUp">
+        <methods>
+          <include name="alertHandlingCheck"/>
+          <include name="setDriver"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testCase.TC0010_AlertAndPopUp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

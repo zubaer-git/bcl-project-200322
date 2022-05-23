@@ -1,0 +1,13 @@
+package testCase;
+
+import driver.DriverSetup;
+
+public class AngPro extends DriverSetup{
+	
+	String baseUrl="https://angularjs.org"
+	//String baseUrl="https://angularjs.org";
+	
+	public void lolc() throws InterruptedException
+	
+
+}
